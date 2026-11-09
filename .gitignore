@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+# never commit real screenshots or config
+*.png
+*.jpg
+!docs/*.png
+config.json
